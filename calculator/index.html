@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glassmorphism Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="particles" id="particles"></div>
+    
+    <div class="calculator-container">
+        <button class="history-btn" id="historyBtn">≡</button>
+        
+        <div class="history-panel" id="historyPanel">
+            <h3 class="history-title">Calculation History</h3>
+            <ul class="history-list" id="historyList"></ul>
+            <button class="clear-history" id="clearHistory">Clear History</button>
+        </div>
+        
+        <div class="display">
+            <div class="previous-operand" id="previousOperand"></div>
+            <div class="current-operand" id="currentOperand">0</div>
+        </div>
+        
+        <div class="buttons-grid">
+            <button class="btn clear" id="clear">AC</button>
+            <button class="btn delete" id="delete">DEL</button>
+            <button class="btn operator" id="percent">%</button>
+            <button class="btn operator" id="divide">÷</button>
+            
+            <button class="btn" id="seven">7</button>
+            <button class="btn" id="eight">8</button>
+            <button class="btn" id="nine">9</button>
+            <button class="btn operator" id="multiply">×</button>
+            
+            <button class="btn" id="four">4</button>
+            <button class="btn" id="five">5</button>
+            <button class="btn" id="six">6</button>
+            <button class="btn operator" id="subtract">-</button>
+            
+            <button class="btn" id="one">1</button>
+            <button class="btn" id="two">2</button>
+            <button class="btn" id="three">3</button>
+            <button class="btn operator" id="add">+</button>
+            
+            <button class="btn span-two" id="zero">0</button>
+            <button class="btn" id="decimal">.</button>
+            <button class="btn equals" id="equals">=</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
